@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_second_"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="test.qht.com.demo_0519.view.activity.Second_Activity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/hello"
+        android:gravity="center"
+        android:text="hello world !!!"
+    />
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/hello"
+        android:id="@+id/pulltorefresh_listview"
+    ></com.handmark.pulltorefresh.library.PullToRefreshListView>
+</RelativeLayout>
